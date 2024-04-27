@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sagar Giri - Portfolio</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <header>
-        <h1>Sagar Giri</h1>
+        <img src="profile-picture.jpg" alt="Sagar Giri - Profile Picture">  <h1>Sagar Giri</h1>
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -21,29 +23,49 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>Write a brief introduction about yourself, your background, and your passion.</p>
-        </section>
+            <p>Write a captivating introduction about yourself, your passions, and your career goals.</p>
+            <a href="your-resume.pdf" download="Sagar_Giri_Resume.pdf">Download Resume</a>  </section>
 
         <section id="skills">
             <h2>Skills</h2>
-            <ul>
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
-                </ul>
+            <ul class="skills-list"> <li>Skill 1 <span class="skill-level">Expert</span></li>  <li>Skill 2 <span class="skill-level">Proficient</span></li>
+                <li>Skill 3 <span class="skill-level">Intermediate</span></li>
+                <li>Skill 4 <span class="skill-level">Beginner</span></li>
+            </ul>
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
             <div class="project-card">
-                <h3>Project Title</h3>
-                <p>Project description and a link (optional).</p>
-            </div>
-            </section>
+                <h3>Project Title 1</h3>
+                <p>Project description with a link to the project website (optional).</p>
+                <a href="project-website.com">View Project</a>  </div>
+            <div class="project-card">
+                <h3>Project Title 2</h3>
+                <p>Another project description with a link (optional).</p>
+                <a href="#">Link Coming Soon</a>  </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul class="experience-list">
+                <li>
+                    <h3>Company Name</h3>
+                    <h4>Job Title (Dates)</h4>
+                    <p>Describe your responsibilities and achievements at this position.</p>
+                </li>
+                <li>
+                    <h3>Previous Company Name</h3>
+                    <h4>Job Title (Dates)</h4>
+                    <p>Describe your experience at your previous role.</p>
+                </li>
+            </ul>
+        </section>
 
         <section id="contact">
             <h2>Contact</h2>
             <p>Write your contact information (email, social media links etc.).</p>
+            <ul class="social-icons">   <li><a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a></li>  <li><a href="https://www.linkedin.com/in/your-linkedin-profile"><i class="fab fa-linkedin"></i></a></li>  <li><a href="https://github.com/your-github-username"><i class="fab fa-github"></i></a></li>  </ul>
         </section>
     </main>
 
